@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Icono-->
+    <link rel="icon" href="imgs/logogalo.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Font Family Bigilla & Lora-->
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Lora&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    
+    <!--iconos awesome-->
+    <script src="https://kit.fontawesome.com/98a61b0b0c.js" crossorigin="anonymous"></script>
+
+    <style>
+      .fondo_socios{
+          background-image: url(/imgs/socios.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 100vh;
+      }
+      .contenedor_p{
+          
+          background-color: rgba(236, 223, 216, .7);
+          backdrop-filter: blur(10px);
+          box-shadow: 0 10px 30px black;
+          color: #132351;
+          font-family: 'Lora', serif;
+          font-size: 1.1em;
+          max-width: 600px;
+      }
+
+      h3{
+          color: #ecdfd8;
+      }
+    </style>
+
+    <title>Galo Wines</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <div class="container-fluid d-flex flex-column justify-content-center div_header">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-1 text-center">GALO</h1>
+          </div>
+          <div class="col-12">
+            <h2 class="text-center">WINES</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Navegador-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img class="ico_nav" src="imgs/logogalo.ico" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resto.html">Wine Bar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tienda_vinos.html">Tienda de Vinos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="eventos.html">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Socios</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <section class="fondo_socios">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="text-center my-5 pt-3">SOCIOS</h3>
+            <div class="contenedor_p my-5 p-3 mx-auto">
+              <p class="text-justify">Nuestros socios/as adquieren promociones exclusivas en compras en la vinoteca, descuentos especiales en consumiciones en nuestro Wine Bar y en catas guiadas.
+
+                Para inscribirte, debés completar este <a target="blank" href="https://msha.ke/clubdesocios.galowines/">formulario</a> y seguirnos en nuestra cuenta de <a target="blank" href="https://www.instagram.com/galowines/">Instagram.</a>
+                
+                ¡Sumate para disfrutar lo mejor del mundo del vino! Ser socio no tiene costo alguno.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-lg-4 col-sm-12 my-3 d-flex justify-content-center">
+            <p class="my-auto"><span class="fab fa-instagram span_footer"></span><a href="https://www.instagram.com/galowines/"> galowines</a></p>
+          </div>
+          <div class="col-lg-4 col-sm-12 my-3 d-flex justify-content-center">
+            <p class="my-auto"><span class="fab fa-facebook span_footer"></span><a href="https://www.facebook.com/472701869477652/posts/5032477236833403/?d=n"> Galo Wines</a></p>
+          </div>
+          <div class="col-lg-4 col-sm-12 my-3 d-flex justify-content-center">
+            <p class="my-auto"><span class="fa fa-whatsapp"></span><a href="https://api.whatsapp.com/send?phone=+5493518596950&text=¡Hola!%20quisiera%20hacer%20una%20consulta."> WhatsApp</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
